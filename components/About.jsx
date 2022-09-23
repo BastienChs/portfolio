@@ -11,7 +11,7 @@ export const About = () => {
                         <p className="section-paragraph text-justify">Hello, I&apos;m Bastien! I work as a software engineer for five years now, more than just a job, it&apos;s a passion to me.
                             I love solving problems and learning how things work, being challenged whether by time, technology or business complexity.<br/>
                             I like to keep an eye on the IT innovations and topics, for this I like to use tools such as Medium, Twitter or even Google news.<br/>
-                            As for my soft skills, I&apos;m empathic, I like helping others when they're in need, I&apos;m patient and organized, I like to work in team and being able to learn from others and I&apos;m very curious.</p>
+                            As for my soft skills, I&apos;m empathic, I like helping others when they&apos;re in need, I&apos;m patient and organized, I like to work in team and being able to learn from others and I&apos;m very curious.</p>
                         <p className="section-paragraph">Some of my hobbies below: </p>
                         <div className={"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-6"}>
                             <ul className="list-disc list-inside text-secondary">
