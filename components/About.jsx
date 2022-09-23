@@ -27,6 +27,7 @@ export const About = () => {
                                 <li>Discovering new technologies</li>
                             </ul>
                         </div>
+
                         <div id={"social-networks"} className={"pt-5"}>
                             <a href={"https://www.linkedin.com/in/bastien-chies/"} target={"_blank"} rel="noreferrer" className={"inline-block grayscale hover:grayscale-0"}>
                                 <img src = "/svg/icons8-linkedin-circled.svg" alt="Linkedin account"/>
