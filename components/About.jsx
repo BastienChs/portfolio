@@ -8,10 +8,10 @@ export const About = () => {
                         <img src="/img/bastien_chies.jpg" alt="" className={"rounded-full border-2 border-cyan-500 shadow-cyan-400"}/>
                     </div>
                     <div className={"col-start-3 col-span-6 lg:pl-10"}>
-                        <p className="section-paragraph text-justify">Hello, I'm Bastien! I work as a software engineer for five years now, more than just a job, it's a passion to me.
+                        <p className="section-paragraph text-justify">Hello, I&apos;m Bastien! I work as a software engineer for five years now, more than just a job, it&apos;s a passion to me.
                             I love solving problems and learning how things work, being challenged whether by time, technology or business complexity.<br/>
                             I like to keep an eye on the IT innovations and topics, for this I like to use tools such as Medium, Twitter or even Google news.<br/>
-                            As for my soft skills, I'm empathic, I like helping others when they're in need, I'm patient and organized, I like to work in team and being able to learn from others and I'm very curious.</p>
+                            As for my soft skills, I&apos;m empathic, I like helping others when they're in need, I&apos;m patient and organized, I like to work in team and being able to learn from others and I&apos;m very curious.</p>
                         <p className="section-paragraph">Some of my hobbies below: </p>
                         <div className={"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-6"}>
                             <ul className="list-disc list-inside text-secondary">
@@ -28,10 +28,10 @@ export const About = () => {
                             </ul>
                         </div>
                         <div id={"social-networks"} className={"pt-5"}>
-                            <a href={"https://www.linkedin.com/in/bastien-chies/"} target={"_blank"} className={"inline-block grayscale hover:grayscale-0"}>
+                            <a href={"https://www.linkedin.com/in/bastien-chies/"} target={"_blank"} rel="noreferrer" className={"inline-block grayscale hover:grayscale-0"}>
                                 <img src = "/svg/icons8-linkedin-circled.svg" alt="Linkedin account"/>
                             </a>
-                            <a href={"https://github.com/BastienChs"} target={"_blank"} className={"inline-block lg:ml-8 grayscale hover:grayscale-0"}>
+                            <a href={"https://github.com/BastienChs"} target={"_blank"} rel="noreferrer" className={"inline-block lg:ml-8 grayscale hover:grayscale-0"}>
                                 <img src = "/svg/icons8-github.svg" alt="Github account"/>
                             </a>
                         </div>

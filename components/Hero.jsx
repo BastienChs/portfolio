@@ -29,7 +29,7 @@ export const Hero = () => {
             <div className="items-center lg:flex">
               <div className="w-full lg:w-1/2">
                 <div className="lg:max-w-lg">
-                  <h1 className="text-2xl font-semibold text-gray-800 uppercase dark:text-white lg:text-6xl">Hello I'm <br/>
+                  <h1 className="text-2xl font-semibold text-gray-800 uppercase dark:text-white lg:text-6xl">Hello I&apos;m <br/>
                     <u className={"text-cyan-500"}>Bastien</u></h1>
                   <p className="mt-2 text-gray-600 dark:text-white text-2xl">Software engineer</p>
                   <p className="mt-2 text-gray-600 dark:text-gray-400 text-xl">Beyond a simple job, computer science has been a passion for years.
