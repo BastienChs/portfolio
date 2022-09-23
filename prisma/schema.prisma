@@ -1,0 +1,49 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "cockroachdb"
+  url      = env("DATABASE_URL")
+}
+
+model Experience_ContractType {
+  IdExperience   BigInt
+  IdContractType BigInt
+  id             BigInt        @unique @default(autoincrement())
+  contracttypes  contracttypes @relation(fields: [IdContractType], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "experience_contracttype_contracttypes_id_fk")
+  Experiences    Experiences   @relation(fields: [IdExperience], references: [Id], onDelete: NoAction, onUpdate: NoAction, map: "experience_contracttype_experiences_id_fk")
+}
+
+model Experiences {
+  Id                      BigInt                    @id(map: "experiences_id_uindex") @default(autoincrement())
+  CompanyName             String
+  CompanyLocation         String
+  CompanyLogo             String?
+  StartDate               DateTime                  @db.Date
+  EndDate                 DateTime?                 @db.Date
+  Description             String?
+  CompanyCountry          String?
+  Experience_ContractType Experience_ContractType[]
+  Experiences_Labels      Experiences_Labels[]
+}
+
+model Experiences_Labels {
+  IdExperience BigInt?
+  IdLabel      BigInt?
+  id           BigInt       @unique @default(autoincrement())
+  Experiences  Experiences? @relation(fields: [IdExperience], references: [Id], onDelete: NoAction, onUpdate: NoAction, map: "experiences_labels_experiences_id_fk")
+  Labels       Labels?      @relation(fields: [IdLabel], references: [Id], onDelete: NoAction, onUpdate: NoAction, map: "experiences_labels_labels_id_fk")
+}
+
+model Labels {
+  Id                 BigInt               @id(map: "labels_id_uindex") @default(autoincrement())
+  Label              String
+  Experiences_Labels Experiences_Labels[]
+}
+
+model contracttypes {
+  id                      BigInt                    @id @default(autoincrement())
+  label                   String
+  Experience_ContractType Experience_ContractType[]
+}
