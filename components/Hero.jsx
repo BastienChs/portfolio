@@ -16,11 +16,11 @@ export const Hero = () => {
               <a href="#work" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                 <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
               </a>
-              <a href="#clients" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Clients</span>
+              <a href="#experiences" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Experiences</span>
               </a>
-              <a href="#hire" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
+              <a href="#contact" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
               </a>
             </div>
           </nav>

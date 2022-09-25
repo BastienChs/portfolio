@@ -4,7 +4,7 @@ export const Experiences = ({experiences}) => {
     return(
         <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
             <section className="w-full">
-                <h2 id="clients" className="secondary-title">Experiences</h2>
+                <h2 id="experiences" className="secondary-title">Experiences</h2>
                 <p className="section-paragraph">During my career as a development engineer, I had the opportunity to work with several companies, either at an end customer or via software and computing services company. I had the opportunity to see very different jobs and I hope to discover many more.</p>
                 {experiences.map(experience => (
                     <div className="space-y-12 my-16" key={experience.id}>

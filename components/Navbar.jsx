@@ -8,8 +8,8 @@ export const Navbar = () => {
                     <a href="#" className="text-cyan-500">Home</a>
                     <a href="#about">About me</a>
                     <a href="#work">My work</a>
-                    <a href="#clients">Clients</a>
-                    <a href="#hire">
+                    <a href="#experiences">Experiences</a>
+                    <a href="#contact">
                         <button className="px-6 py-2 bg-cyan-500 shadow-lg shadow-cyan-500/50 rounded-md font-bold">Contact me</button>
                     </a>
                 </div>

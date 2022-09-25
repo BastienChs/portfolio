@@ -4,7 +4,7 @@ export const About = () => {
             <section className="w-full">
                 <h2 id="about" className="secondary-title">About me</h2>
                 <div className={"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-6 mt-6 justify-start"}>
-                    <div className={"col-span-2"}>
+                    <div className={"sm:col-start-3 sm:col-span-6 md:col-start-2 md:col-span-6 lg:col-span-2"}>
                         <img src="/img/bastien_chies.jpg" alt="" className={"rounded-full border-2 border-cyan-500 shadow-cyan-400"}/>
                     </div>
                     <div className={"col-start-3 col-span-6 lg:pl-10"}>
@@ -20,7 +20,7 @@ export const About = () => {
                                 <li>Writing</li>
                                 <li>Watching series</li>
                             </ul>
-                            <ul className="list-disc text-secondary">
+                            <ul className="list-disc sm:list-inside text-secondary">
                                 <li>Shopping</li>
                                 <li>Playing video-games</li>
                                 <li>Take a walk in nature</li>
