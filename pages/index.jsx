@@ -2,27 +2,33 @@
 import {Contact, Experiences, Hero, Layout, Navbar, Works, About} from "../components";
 import {Homepage} from "../components/Homepage";
 import {PrismaClient} from "@prisma/client";
-import superjson from 'superjson';
+import {useRouter} from "next/router";
 
 
 const Home = ({experiences}) => {
+  const { locale, locales, asPath } = useRouter();
+
   return (
     <Layout>
       <Homepage>
-          <Navbar/>
-          <Hero/>
+          <Navbar locales={locales} locale={locale} asPath={asPath}/>
+          <Hero locale={locale}/>
       </Homepage>
-      <About/>
-      <Works/>
-      <Experiences experiences={experiences}/>
-      <Contact/>
+      <About locale={locale}/>
+      <Works locale={locale}/>
+      <Experiences experiences={experiences} locale={locale}/>
+      <Contact locale={locale}/>
     </Layout>
   )
 }
 
-export async function getStaticProps() {
+export async function getStaticProps({locale}) {
     const prisma = new PrismaClient()
+
     let experiences = await prisma.experiences.findMany({
+        where: {
+          locale: locale
+        },
         select: {
             Id: true,
             CompanyName: true,

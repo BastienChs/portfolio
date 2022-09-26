@@ -1,0 +1,59 @@
+{
+  "informations": [
+    {
+      "locale": "en-US",
+      "intro_h1": "Hello I'm",
+      "name": "Bastien",
+      "lastname" : "Chies",
+      "nav_home": "Home",
+      "nav_about": "About me",
+      "nav_my_work": "My work",
+      "nav_experiences": "Experiences",
+      "nav_contact_me": "Conctact me",
+      "job_title": "Software engineer",
+      "resume_hero_section": "Beyond a simple job, computer science has been a passion for years. I am particularly interested in technologies that will radically change tomorrow, such as artificial intelligence.",
+      "work_button": "View my works",
+
+      "about_bio": "Hello, I'm Bastien! I work as a software engineer for five years now, more than just a job, it's a passion to me. I love solving problems and learning how things work, being challenged whether by time, technology or business complexity.\nI like to keep an eye on the IT innovations and topics, for this I like to use tools such as Medium, Twitter or even Google news.\nAs for my soft skills, I'm empathic, I like helping others when they're in need, I'm patient and organized, I like to work in team and being able to learn from others and I'm very curious.",
+      "about_skill_below": "Some of my hobbies below:",
+      "about_skill_list_p1": ["Listening to music", "Reading", "Writing", "Watching series"],
+      "about_skill_list_p2": ["Shopping", "Playing video-games", "Take a walk in nature", "Discovering new technologies"],
+
+      "work_description": "In my free time, I like to discover new technologies, languages, frameworks or even just concepts. Below you can discover some of them, most of them are also on my github.",
+
+      "experiences_description": "During my career as software engineer, I had the opportunity to work with several companies, either at an end customer or via software and computing services company. I had the opportunity to see very different jobs and I hope to discover many more.\n\n\n",
+
+      "contact_description": "Feel free to to contact me any time, through any method below.",
+      "contact_form_name": "Name",
+      "contact_form_button": "Send it!"
+    },
+    {
+      "locale": "fr",
+      "intro_h1": "Bonjour je suis",
+      "name": "Bastien",
+      "lastname" : "Chies",
+      "nav_home": "Accueil",
+      "nav_about": "A propos",
+      "nav_my_work": "Mes projets",
+      "nav_experiences": "Experiences",
+      "nav_contact_me": "Me conctacter",
+      "job_title": "Ingénieur développeur",
+      "resume_hero_section": "Au-delà d'un simple métier, l'informatique est pour moi une passion depuis des années. J'apporte un intérêt particulier aux technologies qui changeront radicalement le monde de demain à l'instar de l'intelligence artificielle.",
+      "work_button": "Voir mes projets",
+
+      "about_bio": "Bonjour, je suis Bastien ! Cela fait cinq ans maintenant que je travaille en tant qu'ingénieur développeur, plus qu'un simple travail, l'informatique est pour moi une réelle passion. J'aime résoudre des problèmes et découvrir comment les choses interagissent entre elles, être challenger que ce soit par le temps, les techniques ou même la complexité métier.\r\n J'aime entretenir une veille technologique, pour cela j'utilise des outils comme Medium, Twitter ou même les actualités Google. \n Quant à mes 'soft skills', je suis empathique, j'aime aider les autres lorsqu'ils sont dans le besoin, je suis patient, organisé, passionné, j'aime également travailler en équipe et apprendre des autres.",
+      "about_skill_below": "Certains de mes hobbies ci-dessous:",
+      "about_skill_list_p1": ["Écouter de la musique", "Lire", "Écrire", "Regarder des séries"],
+      "about_skill_list_p2": ["Shopping", "Jeux-vidéos", "Vagabonder dans la nature", "Me former aux nouvelles techno"],
+
+
+      "work_description": "Dans mon temps libre, j'aime découvrir de nouvelles technologies, que ce soit des langages, des frameworks ou autre. Ci-dessous vous pourrez découvrir certains d'entre eux dont la plupart se trouvent également sur mon github.",
+
+      "experiences_description": "Au cours de ma carrière d'ingénieur développeur, j'ai eu l'occasion de travailler avec plusieurs entreprises, soit chez un client final, soit via une société de logiciels et de services informatiques. J'ai eu l'occasion de voir des métiers très différents et j'espère en découvrir encore beaucoup d'autres.",
+
+      "contact_description": "N'hésitez pas à me contacter avec les méthodes qui s'offrent à vous ci-dessous.",
+      "contact_form_name": "Nom",
+      "contact_form_button": "Envoyer!"
+    }
+  ]
+}

@@ -24,6 +24,7 @@ model Experiences {
   EndDate                 DateTime?                 @db.Date
   Description             String?
   CompanyCountry          String?
+  locale                  String?                   @default("en-US")
   Experience_ContractType Experience_ContractType[]
   Experiences_Labels      Experiences_Labels[]
 }
@@ -45,5 +46,6 @@ model Labels {
 model contracttypes {
   id                      BigInt                    @id @default(autoincrement())
   label                   String
+  locale                  String?                   @default("en-US")
   Experience_ContractType Experience_ContractType[]
 }

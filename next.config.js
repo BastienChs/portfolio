@@ -9,6 +9,10 @@ const nextConfig = {
     swcPlugins:[
       ['next-superjson-plugin', {}],
     ]
+  },
+  i18n: {
+    locales: ['en-US', 'fr'],
+    defaultLocale: 'en-US'
   }
 }
 
