@@ -4,7 +4,6 @@ import {Homepage} from "../components/Homepage";
 import {PrismaClient} from "@prisma/client";
 import {useRouter} from "next/router";
 
-
 const Home = ({experiences}) => {
   const { locale, locales, asPath } = useRouter();
 
