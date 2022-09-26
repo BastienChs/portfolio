@@ -1,5 +1,7 @@
 import Avatar from "./Avatar";
 import localesJSON from './assets/locales.json'
+import character from '../public/img/character.png'
+import Image from "next/image";
 export const Hero = ({locale}) => {
 
   return(
@@ -45,10 +47,9 @@ export const Hero = ({locale}) => {
                       </a>
                     </div>
                   </div>
-
                   <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-                    <img className="w-full h-full lg:max-w-2xl" src="/img/character.png"
-                         alt="Catalogue-pana.svg"/>
+                    <Image src={character} layout="intrinsic" objectFit={"cover"} placeholder={"blur"}
+                         alt="A character typing on computer"/>
                   </div>
                 </div>
               </div>

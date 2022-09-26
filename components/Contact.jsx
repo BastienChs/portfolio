@@ -1,4 +1,6 @@
 import localesJSON from "./assets/locales.json";
+import Link from "next/link";
+import Image from "next/image";
 
 export const Contact = ({locale}) => {
     return (
@@ -40,16 +42,20 @@ export const Contact = ({locale}) => {
                                     <a href="mailto:bastien.chies@gmail.com"
                                        className="text-secondary underline mt-3 block">bastien.chies@gmail.com</a>
                                     <div className="flex mt-20 space-x-6">
-                                        <a href={"https://www.linkedin.com/in/bastien-chies/"} target={"_blank"}
-                                           rel="noreferrer" className={"inline-block grayscale hover:grayscale-0"}>
-                                            <img src="/svg/icons8-linkedin-circled.svg" alt="Linkedin account"
-                                                 className="w-12 h-12" width="42" height="42"/>
-                                        </a>
-                                        <a href={"https://github.com/BastienChs"} target={"_blank"} rel="noreferrer"
-                                           className={"inline-block lg:ml-8 grayscale hover:grayscale-0"}>
-                                            <img src="/svg/icons8-github.svg" alt="Github account" className="12 h-12"
-                                                 width="42" height="42"/>
-                                        </a>
+                                        <Link href={"https://www.linkedin.com/in/bastien-chies/"}>
+                                            <a target={"_blank"}
+                                               rel="noreferrer" className={"inline-block grayscale hover:grayscale-0"}>
+                                                <Image src="/img/svg/icons8-linkedin-circled.svg" alt="Linkedin account"
+                                                     className="w-12 h-12" width="48" height="48"/>
+                                            </a>
+                                        </Link>
+                                        <Link href={"https://github.com/BastienChs"}>
+                                            <a target={"_blank"} rel="noreferrer"
+                                               className={"inline-block lg:ml-8 grayscale hover:grayscale-0"}>
+                                                <Image src="/img/svg/icons8-github.svg" alt="Github account" className="12 h-12"
+                                                     width="48" height="48"/>
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

@@ -1,4 +1,6 @@
 import localesJSON from "./assets/locales.json";
+import Link from "next/link";
+import Image from "next/image";
 
 export const About = ({locale}) => {
     return(
@@ -11,7 +13,7 @@ export const About = ({locale}) => {
                             <h2 id="about" className="secondary-title">{info.nav_about}</h2>
                             <div className={"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-6 mt-6 justify-start"}>
                                 <div className={"col-start-3 col-span-6 md:col-start-2 md:col-span-6 lg:col-span-2"}>
-                                    <img src="/img/bastien_chies.jpg" alt="" className={"rounded-full border-2 border-cyan-500 shadow-cyan-400"}/>
+                                    <img src="/img/bastien_chies.jpg" alt="Profile picture of Bastien Chies" className={"rounded-full border-2 border-cyan-500 shadow-cyan-400"}/>
                                 </div>
                                 <div className={"col-start-3 col-span-6 lg:pl-10"}>
                                     <p className="section-paragraph text-justify">{info.about_bio}</p>
@@ -32,12 +34,16 @@ export const About = ({locale}) => {
                                     </div>
 
                                     <div id={"social-networks"} className={"pt-5"}>
-                                        <a href={"https://www.linkedin.com/in/bastien-chies/"} target={"_blank"} rel="noreferrer" className={"inline-block grayscale hover:grayscale-0"}>
-                                            <img src = "/svg/icons8-linkedin-circled.svg" alt="Linkedin account"/>
-                                        </a>
-                                        <a href={"https://github.com/BastienChs"} target={"_blank"} rel="noreferrer" className={"inline-block lg:ml-8 grayscale hover:grayscale-0"}>
-                                            <img src = "/svg/icons8-github.svg" alt="Github account"/>
-                                        </a>
+                                        <Link href={"https://www.linkedin.com/in/bastien-chies/"}>
+                                            <a target={"_blank"} rel="noreferrer" className={"inline-block grayscale hover:grayscale-0"}>
+                                                <Image height={48} width={48} src="/img/svg/icons8-linkedin-circled.svg" alt="Linkedin account"/>
+                                            </a>
+                                        </Link>
+                                        <Link href={"https://github.com/BastienChs"}>
+                                            <a target={"_blank"} rel="noreferrer" className={"inline-block lg:ml-8 grayscale hover:grayscale-0"}>
+                                                <Image height={48} width={48} src="/img/svg/icons8-github.svg" alt="Github account"/>
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

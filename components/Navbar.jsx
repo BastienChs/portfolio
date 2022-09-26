@@ -1,5 +1,6 @@
 import Link from "next/link";
 import localesJSON from "./assets/locales.json";
+import Image from "next/image";
 
 export const Navbar = ({locales, locale, asPath}) => {
     return(
@@ -11,20 +12,20 @@ export const Navbar = ({locales, locale, asPath}) => {
                         <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full" key={i}>
                             <div className="text-lg font-bold">{info.name} {info.lastname}</div>
                             <div className="hidden md:flex space-x-12 items-center">
-                                <a href="#" className="text-cyan-500">{info.nav_home}</a>
-                                <a href="#about">{info.nav_about}</a>
-                                <a href="#work">{info.nav_my_work}</a>
-                                <a href="#experiences">{info.nav_experiences}</a>
-                                <a href="#contact">
-                                    <button className="px-6 py-2 bg-cyan-500 shadow-lg shadow-cyan-500/50 rounded-md font-bold">{info.nav_contact_me}</button>
-                                </a>
+                                    <a href={"#"} className="text-cyan-500">{info.nav_home}</a>
+                                    <a href={"#about"}>{info.nav_about}</a>
+                                    <a href={"#work"}>{info.nav_my_work}</a>
+                                    <a href={"#experiences"}>{info.nav_experiences}</a>
+                                    <a href={"#contact"}>
+                                        <button className="px-6 py-2 bg-cyan-500 shadow-lg shadow-cyan-500/50 rounded-md font-bold">{info.nav_contact_me}</button>
+                                    </a>
                                 <div id={"languages"}>
                                     {locales.map((l, i) => {
                                         return (
                                             <Link key={i} href={asPath} locale={l}>
                                                 <a>
                                                 {
-                                                    (l === "fr" ? <img src={"/img/icons/france-48.png"} alt={"french flag icon"} className={"inline-block"}/> : <img src={"/img/icons/gb-48.png"} alt={"great britain flag icon"} className={"inline-block"}/>)
+                                                    (l === "fr" ? <Image height={48} width={48} src={"/img/icons/france-48.png"} alt={"french flag icon"} className={"inline-block"}/> : <Image height={48} width={48} src={"/img/icons/gb-48.png"} alt={"great britain flag icon"} className={"inline-block"}/>)
                                                 }
                                                 </a>
                                             </Link>
@@ -57,7 +58,7 @@ export const Navbar = ({locales, locale, asPath}) => {
                                             <Link key={i} href={asPath} locale={l}>
                                                 <a>
                                                     {
-                                                        (l === "fr" ? <img src={"/img/icons/france-48.png"} alt={"french flag icon"} className={"inline-block"}/> : <img src={"/img/icons/gb-48.png"} alt={"great britain flag icon"} className={"inline-block"}/>)
+                                                        (l === "fr" ? <Image height={48} width={48} src={"/img/icons/france-48.png"} alt={"french flag icon"} className={"inline-block"}/> : <Image height={48} width={48} src={"/img/icons/gb-48.png"} alt={"great britain flag icon"} className={"inline-block"}/>)
                                                     }
                                                 </a>
                                             </Link>
