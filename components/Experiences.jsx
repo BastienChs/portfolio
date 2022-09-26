@@ -7,7 +7,7 @@ export const Experiences = ({experiences}) => {
                 <h2 id="experiences" className="secondary-title">Experiences</h2>
                 <p className="section-paragraph">During my career as a development engineer, I had the opportunity to work with several companies, either at an end customer or via software and computing services company. I had the opportunity to see very different jobs and I hope to discover many more.</p>
                 {experiences.map(experience => (
-                    <div className="space-y-12 my-16" key={experience.id}>
+                    <div className="space-y-12 my-16" key={experience.Id}>
                         <div className="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
                             <div className="mb-6 lg:mb-0  w-1/3 justify-center">
                                 <Image src={experience.CompanyLogo} width={"100"} height={"100"} className={"border-cyan-500 border-4"}></Image>

@@ -30,10 +30,10 @@ export const Contact = () => {
                            className="text-secondary underline mt-3 block">bastien.chies@gmail.com</a>
                         <div className="flex mt-20 space-x-6">
                             <a href={"https://www.linkedin.com/in/bastien-chies/"} target={"_blank"} rel="noreferrer" className={"inline-block grayscale hover:grayscale-0"}>
-                                <img src = "/svg/icons8-linkedin-circled.svg" alt="Linkedin account" className="w-8 h-8 lg:w-12 lg:h-12" width="42" height="42"/>
+                                <img src = "/svg/icons8-linkedin-circled.svg" alt="Linkedin account" className="w-12 h-12" width="42" height="42"/>
                             </a>
                             <a href={"https://github.com/BastienChs"} target={"_blank"} rel="noreferrer" className={"inline-block lg:ml-8 grayscale hover:grayscale-0"}>
-                                <img src = "/svg/icons8-github.svg" alt="Github account" className="w-8 h-8 lg:w-12 lg:h-12" width="42" height="42"/>
+                                <img src = "/svg/icons8-github.svg" alt="Github account" className="12 h-12" width="42" height="42"/>
                             </a>
                         </div>
                     </div>

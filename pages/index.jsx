@@ -24,6 +24,7 @@ export async function getStaticProps() {
     const prisma = new PrismaClient()
     let experiences = await prisma.experiences.findMany({
         select: {
+            Id: true,
             CompanyName: true,
             CompanyCountry: true,
             CompanyLocation: true,
@@ -33,6 +34,7 @@ export async function getStaticProps() {
             Description: true,
             Experiences_Labels: {
                 select: {
+                    id: true,
                     Labels: {
                         select: {
                             Label: true

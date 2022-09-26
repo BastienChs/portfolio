@@ -37,7 +37,7 @@ export const Hero = () => {
                   <a href="#work">
                     <button
                         className="w-full tracking-wider px-6 py-2.5 mt-6 text-sm text-white uppercase transition-colors duration-300
-                         transform rounded-md lg:w-auto bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-600/50 font-bold">View my works
+                         rounded-md lg:w-auto bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-600/50 font-bold">View my works
                     </button>
                   </a>
                 </div>

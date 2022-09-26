@@ -7,12 +7,8 @@ export const Layout = ({children}) => {
             <Head>
                 <title>Bastien Chies</title>
             </Head>
-            <Script
-                src="/js/scroller.js"
-                onLoad={() =>
-                    console.log(`script loaded correctly, window.FB has been populated`)
-                }
-            />
+            <Script src="/js/scroller.js"/>
+            <Script src="/js/burger-menu.js"/>
         {children}
         </div>
     )
