@@ -15,7 +15,7 @@ export const Experiences = ({experiences, locale}) => {
                                 <div className="space-y-12 my-16" key={experience.Id}>
                                     <div
                                         className="w-full border border-nav p-4 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
-                                        <div className="mb-6 lg:mb-0  w-1/3 justify-center">
+                                        <div className="mb-6 lg:mb-0  w-1/3 justify-center relative">
                                             <Image src={experience.CompanyLogo} width={"100"} height={"100"}
                                                    className={"border-cyan-500 border-4"}></Image>
                                         </div>
