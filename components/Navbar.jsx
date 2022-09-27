@@ -39,7 +39,7 @@ export const Navbar = ({locales, locale, asPath}) => {
                                             fill="white"/>
                                     </svg>
                                 </button>
-                                <div className={"hidden fixed left-0 top-0 w-screen h-screen bg-gray-500/80 grid grid-rows-6 grid-cols-2 place-items-center z-1"} id={"nav-menu"}>
+                                <div className={"hidden fixed left-0 top-0 w-screen h-screen bg-gray-500/80 grid grid-rows-6 grid-cols-2 place-items-center z-10"} id={"nav-menu"}>
                                     <button id={"close-nav-burger"} className={"absolute top-2 right-2"}>
                                         <svg width={"24"} height={"24"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                                              stroke="currentColor" className="w-12 h-12">
