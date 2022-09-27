@@ -12,10 +12,10 @@ export const About = ({locale}) => {
                         <section className="w-full" key={i}>
                             <h2 id="about" className="secondary-title">{info.nav_about}</h2>
                             <div className={"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-6 mt-6 justify-start"}>
-                                <div className={"col-start-1 col-span-6 md:col-start-2 md:col-span-6 lg:col-span-2"}>
+                                <div className={"col-start-1 lg:col-start-1 col-span-6 md:col-start-2 md:col-span-6 lg:col-span-2"}>
                                     <img src="/img/bastien_chies.jpg" alt="Profile picture of Bastien Chies" className={"rounded-full border-2 border-cyan-500 shadow-cyan-400"}/>
                                 </div>
-                                <div className={"col-start-1 col-span-6 lg:pl-10"}>
+                                <div className={"col-start-1 lg:col-start-3 col-span-6 lg:pl-10"}>
                                     <p className="section-paragraph text-justify">{info.about_bio}</p>
                                     <p className="section-paragraph">{info.about_skill_below}</p>
                                     <div className={"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-6"}>
