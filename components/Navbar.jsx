@@ -55,7 +55,7 @@ export const Navbar = ({locales, locale, asPath}) => {
                                         return (
                                             <Link key={i} href={asPath} locale={l}>
                                                 <a>
-                                                    <Image height={48} width={48} src={"/img/icons/"+l+".png"} alt={l+"flag icon"} className={"inline-block"}/>
+                                                    <Image height={48} width={48} src={"/img/icons/locales/"+l+".png"} alt={l+"flag icon"} className={"inline-block"}/>
                                                 </a>
                                             </Link>
                                         );
