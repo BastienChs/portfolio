@@ -15,11 +15,11 @@ export const Contact = ({locale}) => {
 
                             <div className="w-full grid">
                                 <div className={"mt-5"}>
-                                    <p className="text-secondary"><img src={"/img/icons/france-48.png"}
-                                                                       alt={"french flag icon"}
+                                    <p className="text-secondary"><img src={"/img/icons/locales/fr.png"}
+                                                                       alt={"french flag icon"} placeholder={"blur"}
                                                                        className={"inline-block"}/>+33 6 21 67 14 38</p>
                                     <p className="text-secondary"><img src={"/img/icons/canada-48.png"}
-                                                                       alt={"canadian flag icon"}
+                                                                       alt={"canadian flag icon"} placeholder={"blur"}
                                                                        className={"inline-block"}/>+1 XXX XXX XXXX</p>
                                     <p className="text-secondary mt-5">bastien.chies@gmail.com</p>
                                     <div className="flex mt-5 space-x-6">

@@ -24,9 +24,7 @@ export const Navbar = ({locales, locale, asPath}) => {
                                         return (
                                             <Link key={i} href={asPath} locale={l}>
                                                 <a>
-                                                {
-                                                    (l === "fr" ? <Image height={48} width={48} src={"/img/icons/france-48.png"} alt={"french flag icon"} className={"inline-block"}/> : <Image height={48} width={48} src={"/img/icons/gb-48.png"} alt={"great britain flag icon"} className={"inline-block"}/>)
-                                                }
+                                                    <Image height={48} width={48} src={"/img/icons/locales/"+l+".png"} alt={l+" flag icon"} className={"inline-block"}/>
                                                 </a>
                                             </Link>
                                         );
@@ -57,9 +55,7 @@ export const Navbar = ({locales, locale, asPath}) => {
                                         return (
                                             <Link key={i} href={asPath} locale={l}>
                                                 <a>
-                                                    {
-                                                        (l === "fr" ? <Image height={48} width={48} src={"/img/icons/france-48.png"} alt={"french flag icon"} className={"inline-block"}/> : <Image height={48} width={48} src={"/img/icons/gb-48.png"} alt={"great britain flag icon"} className={"inline-block"}/>)
-                                                    }
+                                                    <Image height={48} width={48} src={"/img/icons/"+{l}+".png"} alt={l+"flag icon"} className={"inline-block"}/>
                                                 </a>
                                             </Link>
                                         );
