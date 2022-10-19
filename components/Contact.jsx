@@ -17,10 +17,10 @@ export const Contact = ({locale}) => {
                                 <div className={"mt-5"}>
                                     <p className="text-secondary"><img src={"/img/icons/locales/fr.png"}
                                                                        alt={"french flag icon"} placeholder={"blur"}
-                                                                       className={"inline-block"}/>+33 6 21 67 14 38</p>
+                                                                       className={"inline-block"}/><a href="tel:+33621671438">+33 6 21 67 14 38</a></p>
                                     <p className="text-secondary"><img src={"/img/icons/canada-48.png"}
                                                                        alt={"canadian flag icon"} placeholder={"blur"}
-                                                                       className={"inline-block"}/>+1 (438) 304-6039</p>
+                                                                       className={"inline-block"}/><a href="tel:+14383046039">+1 (438) 304-6039</a></p>
                                     <p className="text-secondary mt-5">bastien.chies@gmail.com</p>
                                     <div className="flex mt-5 space-x-6">
                                         <Link href={"https://www.linkedin.com/in/bastien-chies/"}>
