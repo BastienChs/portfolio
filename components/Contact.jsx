@@ -20,7 +20,7 @@ export const Contact = ({locale}) => {
                                                                        className={"inline-block"}/>+33 6 21 67 14 38</p>
                                     <p className="text-secondary"><img src={"/img/icons/canada-48.png"}
                                                                        alt={"canadian flag icon"} placeholder={"blur"}
-                                                                       className={"inline-block"}/>+1 XXX XXX XXXX</p>
+                                                                       className={"inline-block"}/>+1 (438) 304-6039</p>
                                     <p className="text-secondary mt-5">bastien.chies@gmail.com</p>
                                     <div className="flex mt-5 space-x-6">
                                         <Link href={"https://www.linkedin.com/in/bastien-chies/"}>

@@ -12,7 +12,7 @@ export const Hero = ({locale}) => {
             return(
             <div className="flex flex-wrap md:flex-nowrap" key={i}>
               <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
-                <div className="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                <div className="absolute left-45 transform -translate-x-1/2 space-y-6 mt-36">
                   <a href="#" className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
                     <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">{info.nav_home}</span>
                   </a>
@@ -35,10 +35,10 @@ export const Hero = ({locale}) => {
                 <div className="items-center lg:flex">
                   <div className="w-full lg:w-1/2">
                     <div className="lg:max-w-lg">
-                      <h1 className="text-2xl font-semibold text-gray-800 uppercase dark:text-white lg:text-6xl">{info.intro_h1}<br/>
+                      <h1 className="text-2xl font-semibold uppercase text-white lg:text-6xl">{info.intro_h1}<br/>
                         <u className={"text-cyan-500"}>{info.name}</u></h1>
-                      <p className="mt-2 text-gray-600 dark:text-white text-2xl">{info.job_title}</p>
-                      <p className="mt-2 text-gray-600 dark:text-gray-400 text-xl">{info.resume_hero_section}</p>
+                      <p className="mt-2 text-white text-2xl">{info.job_title}</p>
+                      <p className="mt-2 text-gray-400 text-xl">{info.resume_hero_section}</p>
                       <a href="#work">
                         <button
                             className="w-full tracking-wider px-6 py-2.5 mt-6 text-sm text-white uppercase transition-colors duration-300
